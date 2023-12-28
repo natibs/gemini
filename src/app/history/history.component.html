@@ -1,0 +1,6 @@
+<ul *ngIf="log | async">
+  <li *ngFor="let item of log | async" title="{{ item.role }}">
+    <img src="../../assets/images/{{item.role}}.svg" alt="{{ item.role }}">
+    <span class="text">{{ item.parts }}</span>
+  </li>
+</ul>

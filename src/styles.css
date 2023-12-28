@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+:root  {
+  --primary-color: #673AB7;
+  --text-color: #ffffff;
+  --background-color: #182024;
+  --background-negative: #ffffff;
+  --border-radius: 4px;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: tahoma;
+}
+
+*:focus {
+  outline: 2px solid var(--primary-color);
+}

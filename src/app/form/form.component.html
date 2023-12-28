@@ -1,0 +1,5 @@
+<form [formGroup]="form" (submit)="generate()">
+  <input autofocus placeholder="type your text here..." formControlName="question" />
+  <small classs="inputError" *ngIf="form.invalid && question.touched && submitted">fill in your question...</small>
+  <button type="submit">Generate!</button>
+</form>
